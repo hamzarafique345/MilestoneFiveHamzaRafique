@@ -1,0 +1,148 @@
+html, body {
+    font-family: 'Times New Roman';
+    margin: 20px;
+    padding: 0;
+    background: url("pexels-tara-winstead-7110193.jpg") no-repeat center center/cover;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 5px solid black;
+    display: inline;
+    box-shadow: 0 3px 20px rgb(49, 255, 111);
+    border-radius: 3px;
+    border-radius: 166px;
+    padding: 10px;
+    background-color: rgb(20, 16, 16);
+    margin: 10px;
+    border: none;
+}
+
+#heading {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 3px 20px rgb(5, 5, 4);
+    padding: 20px;
+}
+
+fieldset {
+    border: 3px solid rgb(116, 196, 250);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: rgb(212, 235, 255);
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+legend {
+    font-weight: 900;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+label {
+    display: block;
+    font-weight: 900;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+input, textarea {
+    width: calc(100% - 18px);
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 13px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    padding: 10px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 3px 20px rgb(255, 187, 0);
+    border-radius: 166px;
+    font-weight: 700;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    display: block;
+    width: 320px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 3px 20px rgb(3, 255, 125);
+    border-radius: 166px;
+    font-weight: 700;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 12px;
+    color: rgb(2, 2, 2);
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    border:2px solid  rgb(88, 203, 241);
+    border-radius: 10px;
+    padding: 20px;
+    display: block;
+    background-color:rgb(255, 255, 255);
+    border-radius: 2px;
+    color: white;
+}
+
+#resumeOutput h2{
+        display: block;
+        color: rgb(10, 6, 6);
+        background-color: rgb(255, 255, 255);border-radius: 10px;
+        text-align:center ;
+        border-radius: 10px; 
+
+        
+       
+}
+
+#resumeOutput p{
+   color: rgb(4, 3, 5);
+   font-weight: 900;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+}
+
+#resumeOutput h3{
+    font-weight: 900;
+    color: black;
+}
+
+
+.profilePicture{
+    display: block;
+    margin: 0 auto ;
+    border: 2px solid cyan;
+    box-shadow: 0 4px 8px rgb(12, 16, 242);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
